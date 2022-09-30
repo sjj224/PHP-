@@ -2,7 +2,7 @@
   $leixing = $_GET['leixing'];
   if($leixing == "chp"){
     //数字输出网页计数器
-    $max_len = 9;
+    $max_len = 999999;
     $CounterFile = "chp.txt";
     if(!file_exists($CounterFile)){  //如果计数器文件不存在
         $counter = 0;    
